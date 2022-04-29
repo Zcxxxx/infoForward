@@ -1,0 +1,34 @@
+
+.Home_context {
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/static/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_login {
+  width: 500px;
+  height: 300px;
+  padding: 40px;
+  /* border: 1px solid #ccc; */
+}
+.hasnoMargin {
+  margin: 0;
+}
+.hasBorderRaduis {
+  border-radius: 15px 15px 0 0;
+}
+
+.hasBorderRaduisOn {
+  border-radius: 0 0 15px 15px;
+}
+.textPrimaryBtn {
+  color: #1890ff;
+}
+.textPrimaryBtn:hover {
+  color: #1890ff;
+}
